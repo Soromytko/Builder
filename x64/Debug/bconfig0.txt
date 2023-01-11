@@ -1,0 +1,24 @@
+incom: mkdir[obj]
+
+
+
+
+@f;
+
+icom: getCppFile[@f]
+ocom: gcc++[-c, @f]
+
+;icom: setRootPath[]
+;icom: setObjPath[]
+
+icom: if not exist aaa mkdir aaa
+
+
+
+insco3mmand: createObj[]
+
+
+command: gcc
+args: [--version]
+
+Builder.exe -c bsconfig.txt -p rootPath ojbPath

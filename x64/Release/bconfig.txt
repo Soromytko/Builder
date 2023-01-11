@@ -1,0 +1,10 @@
+#var:rootPath[$]
+#var:binPath[@rootPath\exe]
+icom:set[projectName, hello]
+icom:set[mainTool, g++]
+icom:set[rootPath, $]
+icom:set[binPath, \bin]
+#icom:set[inc, D:\GitHub\Deber\Source]
+icom:createDir[$\bin]
+
+icom:do[]
